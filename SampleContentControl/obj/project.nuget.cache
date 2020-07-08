@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "4zqs+/3Kj49lCIQx8qAQIEMOI3FhxNTDg+MX+eF9kTB3ATbToMZzjLJlmKJkpuhr/oTFUK/VzDMtB9d0EN61wg==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\Sandbox\\RxUISamples\\SampleContentControl\\SampleContentControl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmartin\\.nuget\\packages\\dynamicdata\\6.15.1\\dynamicdata.6.15.1.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\pharmacist.common\\1.5.15\\pharmacist.common.1.5.15.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\reactiveui\\11.4.17\\reactiveui.11.4.17.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\reactiveui.events.wpf\\11.4.17\\reactiveui.events.wpf.11.4.17.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\reactiveui.wpf\\11.4.17\\reactiveui.wpf.11.4.17.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\splat\\9.4.5\\splat.9.4.5.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.reactive\\4.4.1\\system.reactive.4.4.1.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\jmartin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

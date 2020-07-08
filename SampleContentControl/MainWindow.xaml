@@ -1,0 +1,62 @@
+﻿<rxui:ReactiveWindow
+      x:Class="SampleContentControl.MainWindow"
+      x:TypeArguments="lvm:MainViewModel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:rxui="http://reactiveui.net"
+      xmlns:lv="clr-namespace:SampleContentControl.Views"
+      xmlns:lvm="clr-namespace:SampleContentControl.ViewModels"
+      mc:Ignorable="d" 
+      d:DesignHeight="600"
+      d:DesignWidth="500"
+      Height="600"
+      Width="500"
+      Title="{Binding Title}"
+      >
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height='Auto' />
+      <RowDefinition Height='Auto' />
+      <RowDefinition Height='*' />
+    </Grid.RowDefinitions>
+
+    <Menu x:Name='menu' Grid.Row='0' >
+      <MenuItem x:Name='MenuFile' Header='File' >
+        <MenuItem x:Name='MenuFileExit' Header='Exit' />
+      </MenuItem>
+      <MenuItem x:Name='MenuPage' Header='Page' >
+        <MenuItem x:Name='MenuPageAssignedOptions' Header='Assigned Options' />
+        <MenuItem x:Name='MenuPagePackages' Header='Pacakges' />
+        <MenuItem x:Name='MenuPageOptions' Header='Options' />
+        <MenuItem x:Name='MenuPageUsers' Header='Users' />
+      </MenuItem>
+    </Menu>
+
+    <Border x:Name='navBorder' Grid.Row='1' >
+      <StackPanel x:Name='navPanel' Orientation='Horizontal' HorizontalAlignment='Center' >
+        <Button x:Name='assignOptionsNavBtn' MinWidth='64' MinHeight='64' Margin='3' Padding='2' HorizontalAlignment='Center'
+                Content='Assigned Options'
+                CommandParameter='assignedOptions'
+                />
+        <Button x:Name='packagesNavBtn' MinWidth='64' MinHeight='64' Margin='3' HorizontalAlignment='Center'
+                Content='Packages'
+                CommandParameter='packages'
+                />
+        <Button x:Name='optionsNavBtn' MinWidth='64' MinHeight='64' Margin='3' HorizontalAlignment='Center'
+                Content='Options'
+                CommandParameter='options'
+                />
+        <Button x:Name='usersNavBtn' MinWidth='64' MinHeight='64' Margin='3' HorizontalAlignment='Center'
+                Content='Users'
+                CommandParameter='users'
+                />
+      </StackPanel>
+    </Border>
+
+    <Border x:Name='contentBorder' Grid.Row='2' >
+      <ContentControl x:Name='host' />
+    </Border>
+  </Grid>
+</rxui:ReactiveWindow>

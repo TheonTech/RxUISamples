@@ -1,0 +1,283 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DynamicData/6.15.1": {
+        "dependencies": {
+          "System.Reactive": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicData.dll": {
+            "assemblyVersion": "6.15.0.0",
+            "fileVersion": "6.15.1.57358"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Pharmacist.Common/1.5.15": {
+        "dependencies": {
+          "System.Reactive": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pharmacist.Common.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.15.40376"
+          }
+        }
+      },
+      "ReactiveUI/11.4.17": {
+        "dependencies": {
+          "DynamicData": "6.15.1",
+          "Splat": "9.4.5",
+          "System.Reactive": "4.4.1",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ReactiveUI.dll": {
+            "assemblyVersion": "11.4.0.0",
+            "fileVersion": "11.4.17.60098"
+          }
+        }
+      },
+      "ReactiveUI.Events.WPF/11.4.17": {
+        "dependencies": {
+          "Pharmacist.Common": "1.5.15",
+          "System.Reactive": "4.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ReactiveUI.Events.WPF.dll": {
+            "assemblyVersion": "11.4.0.0",
+            "fileVersion": "11.4.17.60098"
+          }
+        }
+      },
+      "ReactiveUI.WPF/11.4.17": {
+        "dependencies": {
+          "ReactiveUI": "11.4.17",
+          "System.Reactive": "4.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ReactiveUI.WPF.dll": {
+            "assemblyVersion": "11.4.0.0",
+            "fileVersion": "11.4.17.60098"
+          }
+        }
+      },
+      "Splat/9.4.5": {
+        "runtime": {
+          "lib/netstandard2.0/Splat.dll": {
+            "assemblyVersion": "9.4.0.0",
+            "fileVersion": "9.4.5.9829"
+          }
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Reactive/4.4.1": {},
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "dependencies": {
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamicData/6.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptLi6Ete7cxibPAuvfrG6tOH4nN6xKcn4KGlOwOUUp78V0WAHhrEVyAD1/TuPbpR55DQIEu1RjOucIb9Ibbwng==",
+      "path": "dynamicdata/6.15.1",
+      "hashPath": "dynamicdata.6.15.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Pharmacist.Common/1.5.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6U6v1Yo622INMExEr9wg8icJkcqx84gaM56CSKIECXdASfVZ0Tn+EjQ/eas0QCB4Gw6zu1FQvkxpdgDKkye8tA==",
+      "path": "pharmacist.common/1.5.15",
+      "hashPath": "pharmacist.common.1.5.15.nupkg.sha512"
+    },
+    "ReactiveUI/11.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0EwX/8XinrV2XmVYVE6nZPdZ1qbBf38PLWmlMhx9adx+ji9oLsiXwOQVnq83RD19Df7ofxzblKIxJ2GewrKPmA==",
+      "path": "reactiveui/11.4.17",
+      "hashPath": "reactiveui.11.4.17.nupkg.sha512"
+    },
+    "ReactiveUI.Events.WPF/11.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YdGowl5CQ2A8w6kSn6ceRNAvQ8eNbP1TupflBMr7tlLZSyk99IsHmyvKnqZkoibsNQw12lE5+2h3RcyQgPFcvg==",
+      "path": "reactiveui.events.wpf/11.4.17",
+      "hashPath": "reactiveui.events.wpf.11.4.17.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/11.4.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Qt/CCLnZSFiixJlWo+bpeWsXWVIwiumdnvzI11eXbYcbLVtbPygy1rH/4FnaU4tQ8e+eS6XabizS23MpNhE0Q==",
+      "path": "reactiveui.wpf/11.4.17",
+      "hashPath": "reactiveui.wpf.11.4.17.nupkg.sha512"
+    },
+    "Splat/9.4.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KOFrxLdMQg0geu2EMSAL+H9ZgsMY4lgm0Fd71wqod7TBbEM28CutGZ+hg71/U/c/lLx2g409UoepezKHHm9jbA==",
+      "path": "splat/9.4.5",
+      "hashPath": "splat.9.4.5.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gp7Z/4kR92caisVDNbXXYdGYZuAECXZGIaG7kAOs3cEM3zVMp078Yn3qVRGzUidYSYEAauQ0hx7mbXEmuimhYA==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ep3xyKDltu0EsCk1BvoWBC7NltwFqRlYCjwKTV7+d4sAH0lVk5P3Q2XydNm6dYxUJZdUgmBLf52F3pAwzKIJBg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Reactive/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
+      "path": "system.reactive/4.4.1",
+      "hashPath": "system.reactive.4.4.1.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DyOo4oJzP4JDP+GmJmZRTUoMN1T7MDlQLCgptPKJ5oB9AhRZ/RDIhAw0XrLAC6BpBxSPWk+fv6rMzfZcYPIjyQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6j+W57PZnjErWr1OBi7ORmwBBLycDB4N9aEOBKHAHXF/9sLOA30IQkqyOWGUUbQUgjHZwuZSVtgaUzW8wIbFTg==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u8AA+wa4EtOtkOf7OqxYryXnZ2zwv83qP1Dfnv3ZoA1k9Gx0HR/ERccyc1/HBpjbIdrcsyTVHivNQSYlGwGT8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLlTiM4b/Un90BM6s3voqYybZEGra4WiIaXfTeB9kVPZr6QDP97xjG+rZYzdP2jiuQnij1bA8q4PzmrY6l5QTw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "hashPath": "system.runtime.serialization.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U564F0gK8wI5A+SXUg99g/sxG9Fgynj90qgtUzMcK8wDF6iAktFXpZfY9cETcz3NKvKR/rQpyhstguPcAA2lUA==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3rywGOEzJJvjVzTIZHYWYIja/zs9UTq3hEuUAyBc1Y4fYKG4013HRD9Y2JymL7eHUfaujLhh8UM4yeTnAwZCQ==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}
